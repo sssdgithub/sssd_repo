@@ -9,6 +9,8 @@
     <ignored path="$PROJECT_DIR$/mybatis_one2many/target/" />
     <ignored path="$PROJECT_DIR$/mybatis_many2many/target/" />
     <ignored path="$PROJECT_DIR$/mybatis_self/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis_dynamic2sql/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis_annotation/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +19,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -35,17 +37,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/sssd/mybatis/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/mybatis/src/test/java/com/sssd/mybatis/CRUDTest.java" />
-        <option value="$PROJECT_DIR$/mybatis_many/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis_many/src/main/java/com/sssd/mybatis/entity/Account.java" />
-        <option value="$PROJECT_DIR$/mybatis_many/src/main/java/com/sssd/mybatis/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/mybatis_many/src/test/java/One2ManyTest.java" />
-        <option value="$PROJECT_DIR$/mybatis_many/src/main/java/com/sssd/mybatis/mapper/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/mybatis_many/src/main/java/com/sssd/mybatis/entity/Role.java" />
-        <option value="$PROJECT_DIR$/mybatis_many/src/main/java/com/sssd/mybatis/entity/User.java" />
-        <option value="$PROJECT_DIR$/mybatis_many/src/main/java/com/sssd/mybatis/mapper/RoleMapper.xml" />
-        <option value="$PROJECT_DIR$/mybatis_many/src/main/java/com/sssd/mybatis/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/mybatis_many/src/test/java/Many2ManyTest.java" />
         <option value="$PROJECT_DIR$/mybatis_many/src/main/resources/SqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/mybatis_one2one/pom.xml" />
@@ -86,6 +77,17 @@
         <option value="$PROJECT_DIR$/mybatis_self/src/main/java/com/sssd/mybatis/mapper/MenuMapper.java" />
         <option value="$PROJECT_DIR$/mybatis_self/src/main/java/com/sssd/mybatis/mapper/MenuMapper.xml" />
         <option value="$PROJECT_DIR$/mybatis_self/src/test/java/SelfTest.java" />
+        <option value="$PROJECT_DIR$/mybatis_dynamic2sql/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_dynamic2sql/src/main/java/com/sssd/mybatis/entity/User.java" />
+        <option value="$PROJECT_DIR$/mybatis_dynamic2sql/src/main/java/com/sssd/mybatis/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/mybatis_annotation/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/mybatis_annotation/src/main/java/com/sssd/mybatis/entity/Order.java" />
+        <option value="$PROJECT_DIR$/mybatis_annotation/src/main/java/com/sssd/mybatis/entity/User.java" />
+        <option value="$PROJECT_DIR$/mybatis_annotation/src/main/java/com/sssd/mybatis/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis_annotation/src/main/java/com/sssd/mybatis/mapper/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis_annotation/src/test/java/MybatisAnnotationTest.java" />
       </list>
     </option>
   </component>
@@ -98,9 +100,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\MySoft\deploy\apache-maven-3.3.9\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../../../deploy/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="C:\MySoft\deploy\apache-maven-3.3.9\conf\settings.xml" />
+        <option name="localRepository" value="C:\MySoft\deploy\apache-maven-3.5.2\repository" />
+        <option name="mavenHome" value="C:/MySoft/deploy/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="C:\MySoft\deploy\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -114,7 +116,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="mybatis_dynamic2sql" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -123,20 +125,18 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="109" />
-    <option name="y" value="64" />
-    <option name="width" value="1705" />
-    <option name="height" value="879" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-54" />
+    <option name="y" value="30" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,19 +148,21 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.7" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis_self" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis_dynamic2sql" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -171,11 +173,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SSSD\Desktop\code\mybatis\quickstart\mybatis_annotation\src\main\resources" />
+      <recent name="C:\Users\SSSD\Desktop\code\mybatis\quickstart\mybatis_dynamic2sql\src\main\java\com\sssd\mybatis\mapper" />
+      <recent name="C:\Users\SSSD\Desktop\code\mybatis\quickstart\mybatis_dynamic2sql\src\main\resources" />
       <recent name="C:\MySoft\develop\IDE\workspace\idea\quickstart-projects\mybatis\quickstart\mybatis_self\src\main\resources" />
       <recent name="C:\MySoft\develop\IDE\workspace\idea\quickstart-projects\mybatis\quickstart\mybatis_self\src\main\java\com\sssd\mybatis\mapper" />
-      <recent name="C:\MySoft\develop\IDE\workspace\idea\quickstart-projects\mybatis\quickstart\mybatis_many2many\src\main\resources" />
-      <recent name="C:\MySoft\develop\IDE\workspace\idea\quickstart-projects\mybatis\quickstart\mybatis_many2many\src\main\java\com\sssd\mybatis\mapper" />
-      <recent name="C:\MySoft\develop\IDE\workspace\idea\quickstart-projects\mybatis\quickstart\mybatis_one2many\src\main\java\com\sssd\mybatis\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -190,17 +192,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SelfTest.findAll">
+  <component name="RunManager" selected="JUnit.MybatisAnnotationTest.userFindAll">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Many2Many.userFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_many2many" />
+    <configuration name="MybatisAnnotationTest.orderFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_annotation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Many2Many" />
-      <option name="METHOD_NAME" value="userFind" />
+      <option name="MAIN_CLASS_NAME" value="MybatisAnnotationTest" />
+      <option name="METHOD_NAME" value="orderFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -211,13 +213,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="One2Many.userFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_one2many" />
+    <configuration name="MybatisAnnotationTest.userFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_annotation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="One2Many" />
-      <option name="METHOD_NAME" value="userFind" />
+      <option name="MAIN_CLASS_NAME" value="MybatisAnnotationTest" />
+      <option name="METHOD_NAME" value="userFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -228,13 +230,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SelfTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_self" />
+    <configuration name="MybatisAnnotationTest.userFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_annotation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SelfTest" />
-      <option name="METHOD_NAME" value="findAll" />
+      <option name="MAIN_CLASS_NAME" value="MybatisAnnotationTest" />
+      <option name="METHOD_NAME" value="userFindById" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -245,13 +247,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SelfTest.findByPid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_self" />
+    <configuration name="MybatisAnnotationTest.userFindByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_annotation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SelfTest" />
-      <option name="METHOD_NAME" value="findByPid" />
+      <option name="MAIN_CLASS_NAME" value="MybatisAnnotationTest" />
+      <option name="METHOD_NAME" value="userFindByUsername" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -262,13 +264,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SelfTest.menuFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_self" />
+    <configuration name="MybatisAnnotationTest.userFindCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_annotation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SelfTest" />
-      <option name="METHOD_NAME" value="menuFind" />
+      <option name="MAIN_CLASS_NAME" value="MybatisAnnotationTest" />
+      <option name="METHOD_NAME" value="userFindCount" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -318,19 +320,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.One2Many.userFind" />
-      <item itemvalue="JUnit.Many2Many.userFind" />
-      <item itemvalue="JUnit.SelfTest.menuFind" />
-      <item itemvalue="JUnit.SelfTest.findByPid" />
-      <item itemvalue="JUnit.SelfTest.findAll" />
+      <item itemvalue="JUnit.MybatisAnnotationTest.userFindAll" />
+      <item itemvalue="JUnit.MybatisAnnotationTest.userFindCount" />
+      <item itemvalue="JUnit.MybatisAnnotationTest.userFindByUsername" />
+      <item itemvalue="JUnit.MybatisAnnotationTest.userFindById" />
+      <item itemvalue="JUnit.MybatisAnnotationTest.orderFindAll" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SelfTest.findAll" />
-        <item itemvalue="JUnit.SelfTest.findByPid" />
-        <item itemvalue="JUnit.SelfTest.menuFind" />
-        <item itemvalue="JUnit.Many2Many.userFind" />
-        <item itemvalue="JUnit.One2Many.userFind" />
+        <item itemvalue="JUnit.MybatisAnnotationTest.userFindAll" />
+        <item itemvalue="JUnit.MybatisAnnotationTest.orderFindAll" />
+        <item itemvalue="JUnit.MybatisAnnotationTest.userFindById" />
+        <item itemvalue="JUnit.MybatisAnnotationTest.userFindByUsername" />
+        <item itemvalue="JUnit.MybatisAnnotationTest.userFindCount" />
       </list>
     </recent_temporary>
   </component>
@@ -350,63 +352,67 @@
       <workItem from="1557360212104" duration="23313000" />
       <workItem from="1557446200103" duration="23787000" />
       <workItem from="1557545514186" duration="1687000" />
+      <workItem from="1557582854603" duration="635000" />
+      <workItem from="1557583540316" duration="353000" />
+      <workItem from="1557583941262" duration="6455000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SelfTest_findByPid - 2019.05.10 at 17h 41m 14s.xml">
-      <configuration name="SelfTest.findByPid" configurationId="JUnit" />
+    <history-entry file="MybatisAnnotationTest_userFindById - 2019.05.11 at 23h 06m 29s.xml">
+      <configuration name="MybatisAnnotationTest.userFindById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelfTest_findByPid - 2019.05.10 at 17h 42m 58s.xml">
-      <configuration name="SelfTest.findByPid" configurationId="JUnit" />
+    <history-entry file="MybatisAnnotationTest_orderFindAll - 2019.05.11 at 23h 33m 52s.xml">
+      <configuration name="MybatisAnnotationTest.orderFindAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelfTest_findByPid - 2019.05.10 at 17h 46m 09s.xml">
-      <configuration name="SelfTest.findByPid" configurationId="JUnit" />
+    <history-entry file="MybatisAnnotationTest_orderFindAll - 2019.05.11 at 23h 45m 02s.xml">
+      <configuration name="MybatisAnnotationTest.orderFindAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelfTest_findAll - 2019.05.10 at 17h 51m 30s.xml">
-      <configuration name="SelfTest.findAll" configurationId="JUnit" />
+    <history-entry file="MybatisAnnotationTest_orderFindAll - 2019.05.11 at 23h 47m 15s.xml">
+      <configuration name="MybatisAnnotationTest.orderFindAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelfTest_findAll - 2019.05.10 at 17h 52m 20s.xml">
-      <configuration name="SelfTest.findAll" configurationId="JUnit" />
+    <history-entry file="MybatisAnnotationTest_orderFindAll - 2019.05.11 at 23h 48m 55s.xml">
+      <configuration name="MybatisAnnotationTest.orderFindAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelfTest_findAll - 2019.05.10 at 17h 52m 43s.xml">
-      <configuration name="SelfTest.findAll" configurationId="JUnit" />
+    <history-entry file="MybatisAnnotationTest_orderFindAll - 2019.05.11 at 23h 50m 31s.xml">
+      <configuration name="MybatisAnnotationTest.orderFindAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelfTest_findAll - 2019.05.10 at 17h 53m 39s.xml">
-      <configuration name="SelfTest.findAll" configurationId="JUnit" />
+    <history-entry file="MybatisAnnotationTest_userFindAll - 2019.05.11 at 23h 58m 21s.xml">
+      <configuration name="MybatisAnnotationTest.userFindAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelfTest_findAll - 2019.05.10 at 17h 54m 27s.xml">
-      <configuration name="SelfTest.findAll" configurationId="JUnit" />
+    <history-entry file="MybatisAnnotationTest_userFindAll - 2019.05.11 at 23h 59m 08s.xml">
+      <configuration name="MybatisAnnotationTest.userFindAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelfTest_findAll - 2019.05.10 at 17h 55m 56s.xml">
-      <configuration name="SelfTest.findAll" configurationId="JUnit" />
+    <history-entry file="MybatisAnnotationTest_userFindAll - 2019.05.11 at 23h 59m 49s.xml">
+      <configuration name="MybatisAnnotationTest.userFindAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelfTest_findAll - 2019.05.11 at 11h 48m 33s.xml">
-      <configuration name="SelfTest.findAll" configurationId="JUnit" />
+    <history-entry file="MybatisAnnotationTest_userFindAll - 2019.05.12 at 00h 00m 23s.xml">
+      <configuration name="MybatisAnnotationTest.userFindAll" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59100000" />
+    <option name="totallyTimeSpent" value="66543000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="134" y="22" width="1705" height="879" extended-state="0" />
+    <frame x="-54" y="30" width="1382" height="784" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3231623" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.31958762" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32953548" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32880846" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.903118" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57731956" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32962137" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19172245" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24886535" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="BPMNPalette" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -422,17 +428,17 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.8875278" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16595517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -441,14 +447,14 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32962137" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39920425" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32516703" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32953548" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,81 +469,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis_many/src/test/java/Many2ManyTest.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis_many/src/main/java/com/sssd/mybatis/mapper/RoleMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/mybatis_many/src/main/java/com/sssd/mybatis/mapper/UserMapper.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis_many/src/main/java/com/sssd/mybatis/entity/Role.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis_many/src/main/java/com/sssd/mybatis/entity/User.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis_many/src/main/java/com/sssd/mybatis/entity/Account.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis_many/src/test/java/One2ManyTest.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis_many/src/main/resources/SqlMapConfig.xml" />
-    <entry file="file://$PROJECT_DIR$/mybatis_many/src/main/java/com/sssd/mybatis/mapper/UserMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_one2one/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_one2one/src/main/resources/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="53" column="12" selection-start-line="10" selection-start-column="4" selection-end-line="53" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_one2many/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_one2one/src/test/java/One2OneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_one2many/src/main/resources/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_one2one/src/main/java/com/sssd/mybatis/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis_one2one/src/main/java/com/sssd/mybatis/entity/Card.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -578,11 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,40 +623,10 @@
     <entry file="file://$PROJECT_DIR$/mybatis_self/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_one2many/src/main/java/com/sssd/mybatis/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_one2many/src/main/java/com/sssd/mybatis/mapper/OrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis_one2many/src/main/java/com/sssd/mybatis/entity/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_one2many/src/main/java/com/sssd/mybatis/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,9 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,11 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,11 +655,176 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_dynamic2sql/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_dynamic2sql/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_dynamic2sql/src/main/java/com/sssd/mybatis/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_dynamic2sql/src/main/java/com/sssd/mybatis/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_dynamic2sql/src/main/java/com/sssd/mybatis/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="53" column="12" selection-start-line="10" selection-start-column="4" selection-end-line="53" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_annotation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1101">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/annotations/ResultMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/sssd/mybatis/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="76" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/annotations/One.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/annotations/Result.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_one2many/src/main/java/com/sssd/mybatis/mapper/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_one2many/src/main/java/com/sssd/mybatis/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_one2many/src/main/java/com/sssd/mybatis/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_annotation/src/main/java/com/sssd/mybatis/entity/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_annotation/src/main/java/com/sssd/mybatis/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_annotation/src/test/java/MybatisAnnotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_annotation/src/main/java/com/sssd/mybatis/mapper/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_annotation/src/main/java/com/sssd/mybatis/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="16" column="123" selection-start-line="16" selection-start-column="123" selection-end-line="16" selection-end-column="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_annotation/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_annotation/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -813,7 +866,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -825,7 +878,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mybatis01</last-edited>
+          <last-edited>mybatis</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -863,8 +916,8 @@
     </states>
   </component>
   <component name="mavenExecuteGoalHistory">
-    <option value="$PROJECT_DIR$/mybatis" />
-    <option value="clean" />
+    <option value="C:\Users\SSSD\Desktop\code\mybatis\quickstart\mybatis_dynamic2sql" />
     <option value="install" />
+    <option value="clean" />
   </component>
 </project>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_annotation/mybatis_annotation.iml" filepath="$PROJECT_DIR$/mybatis_annotation/mybatis_annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis_many2many/mybatis_many2many.iml" filepath="$PROJECT_DIR$/mybatis_many2many/mybatis_many2many.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis_one2many/mybatis_one2many.iml" filepath="$PROJECT_DIR$/mybatis_one2many/mybatis_one2many.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis_one2one/mybatis_one2one.iml" filepath="$PROJECT_DIR$/mybatis_one2one/mybatis_one2one.iml" />

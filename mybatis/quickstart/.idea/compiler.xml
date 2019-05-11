@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis" />
+        <module name="mybatis_annotation" />
         <module name="mybatis_many2many" />
         <module name="mybatis_one2many" />
         <module name="mybatis_one2one" />
@@ -16,6 +17,8 @@
     <bytecodeTargetLevel target="8">
       <module name="mybatis" target="1.5" />
       <module name="mybatis01" target="1.5" />
+      <module name="mybatis_annotation" target="1.5" />
+      <module name="mybatis_dynamic2sql" target="1.5" />
       <module name="mybatis_many2many" target="1.5" />
       <module name="mybatis_one2many" target="1.5" />
       <module name="mybatis_one2one" target="1.5" />
