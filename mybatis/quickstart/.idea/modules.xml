@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_many2many/mybatis_many2many.iml" filepath="$PROJECT_DIR$/mybatis_many2many/mybatis_many2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_one2many/mybatis_one2many.iml" filepath="$PROJECT_DIR$/mybatis_one2many/mybatis_one2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_one2one/mybatis_one2one.iml" filepath="$PROJECT_DIR$/mybatis_one2one/mybatis_one2one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_self/mybatis_self.iml" filepath="$PROJECT_DIR$/mybatis_self/mybatis_self.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/quickstart.iml" filepath="$PROJECT_DIR$/.idea/quickstart.iml" />
+    </modules>
+  </component>
+</project>

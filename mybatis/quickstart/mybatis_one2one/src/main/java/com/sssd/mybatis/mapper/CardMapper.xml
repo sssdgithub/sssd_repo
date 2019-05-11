@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sssd.mybatis.mapper.CardMapper">
+    <resultMap id="cardMap" type="card">
+        <id property="cid" column="cid"></id>
+        <result property="cnumber" column="cnumber"></result>
+        <association property="user" column="uid" select="com.sssd.mybatis.mapper.UserMapper.findById"></association>
+    </resultMap>
+    <select id="findAll" resultMap="cardMap">
+        select * from card
+    </select>
+</mapper>
